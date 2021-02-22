@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="59" started-at="2021-01-10T10:15:26Z" finished-at="2021-01-10T10:15:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="59" started-at="2021-01-10T10:15:26Z" finished-at="2021-01-10T10:15:27Z">
+      <class name="com.demoshop.verify.TestClass">
+        <test-method status="FAIL" signature="browsersetup()[pri:0, instance:com.demoshop.verify.TestClass@73ad2d6]" name="browsersetup" is-config="true" duration-ms="172" started-at="2021-01-10T10:15:26Z" finished-at="2021-01-10T10:15:26Z">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\Zenith\eclipse-workspace\DemoWebshop\parameter.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Zenith\eclipse-workspace\DemoWebshop\parameter.properties (The system cannot find the path specified)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at com.demoshop.verify.BaseClass.browsersetup(BaseClass.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsersetup -->
+        <test-method status="SKIP" signature="openurl()[pri:0, instance:com.demoshop.verify.TestClass@73ad2d6]" name="openurl" is-config="true" duration-ms="0" started-at="2021-01-10T10:15:26Z" finished-at="2021-01-10T10:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method status="SKIP" signature="verifypages()[pri:0, instance:com.demoshop.verify.TestClass@73ad2d6]" name="verifypages" duration-ms="0" started-at="2021-01-10T10:15:27Z" finished-at="2021-01-10T10:15:27Z">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\Zenith\eclipse-workspace\DemoWebshop\parameter.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Zenith\eclipse-workspace\DemoWebshop\parameter.properties (The system cannot find the path specified)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at com.demoshop.verify.BaseClass.browsersetup(BaseClass.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypages -->
+        <test-method status="SKIP" signature="windowclose()[pri:0, instance:com.demoshop.verify.TestClass@73ad2d6]" name="windowclose" is-config="true" duration-ms="0" started-at="2021-01-10T10:15:27Z" finished-at="2021-01-10T10:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowclose -->
+      </class> <!-- com.demoshop.verify.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
